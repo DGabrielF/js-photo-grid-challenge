@@ -1,0 +1,16 @@
+@media only screen and (max-width: 399px) {
+  .photos_container{
+    grid-template-columns: auto;
+    height: 69vh;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 559px) {
+  .photos_container{
+    grid-template-columns: auto auto;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 719px) {
+  .photos_container{
+    grid-template-columns: auto auto auto;
+  }
+}

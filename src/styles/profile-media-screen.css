@@ -1,0 +1,53 @@
+@media only screen and (max-width: 399px) {
+  .profile_container{
+    height: 29vh;
+    
+    flex-direction: column;
+    justify-content: center;
+  }
+  .profile_nickname{
+    width: 100%;
+
+    font-size: 20px;
+    text-align: center;
+  }
+  .btn_area{
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5px;
+  }
+  .profile_statistics {
+    width: 100% ;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+
+    overflow: hidden;
+  }
+  .profile_statistics > div {
+    font-size: smaller;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 536px) {
+  .btn_area{
+    width: 100%;
+
+    display: flex;
+    justify-content: start;
+    gap: 5px;
+  }
+  .profile_statistics {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 2px;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 719px) {
+  .photos_container{
+    grid-template-columns: auto auto auto;
+  }
+}

@@ -1,0 +1,36 @@
+@import url("./card.css");
+@import url("./card-media-screen.css");
+@import url("./profile.css");
+@import url("./profile-media-screen.css");
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background-color: #e9e9f0;
+  overflow: hidden;
+}
+.container{
+  border-radius: 8px;
+  height: 98.5vh;
+
+  background-color: #ffffffaa;
+
+  overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: #323b4c30;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #323b4c30;
+  border-radius: 18px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #323b4c80;
+
+}

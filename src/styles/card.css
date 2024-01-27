@@ -1,0 +1,71 @@
+.photos_container{
+  padding: 4px 0;
+  max-height: 78vh;
+
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+
+  overflow: auto;
+}
+.card_photo{
+  padding: 4px;
+  width: 162px;
+
+  border: 1px solid #000000aa;
+  border-radius: 5px;
+  background-color: #fefefe;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px
+}
+.card_image{
+  width: 150px;
+  height: 150px;
+
+  border: 1px solid #ffffff33;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_image > img {
+  width: 100%;
+  max-height: 100%;
+
+  object-fit: cover;
+}
+.card_details{
+  width: 100%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.card_icon{
+  margin-left: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card_icon svg{
+  width: 15px;
+  height: 15px;
+}
+.card_description{
+  height: 35px;
+  width: 100%;
+
+  font-size: 13px;
+
+  display: flex;
+  align-items: center;
+}
